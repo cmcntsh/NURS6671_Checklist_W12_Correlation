@@ -89,25 +89,25 @@ Hopefully, the statistics you calculate are more than just a collection of rando
 | What are the independent (or predictor) and dependent (or outcome) variables for the test, and what is the level of measurement for each one? |
 | IV:<br><br>DV:<br><br> |
 | What are the assumptions for the statistical test used? Do the data in the dataset meet those assumptions? If not, should an alternative test be selected or are any adjustments necessary to conduct a meaningful test? |
-| $\textcolor{red}{Update \ this \ section:}$ <br>sample is randomly selected from population<br>Observations are independent<br>data are normally distributed (residuals are normally distributed)<br>homogeneity of variance<br> |
+| $\textcolor{red}{Update \ this \ section:}$ <br>sample is randomly selected from population<br>Observations are independent<br>data are normally distributed (residuals are normally distributed)<br>variables have a linear relationship<br>homoscedasticity (like homogeneity of variance, but for continuous variables)<br> |
 | NHST steps: |
 | These steps should be followed for each statistical test conducted as part of a study. |
 | 1. State the null and alternative hypothesis. |
-| $\textcolor{red}{Update \ this \ section:}$ <br>H0: There is no difference between group means<br><br>H1: There is a difference between group means<br><br> |
+| $\textcolor{red}{Update \ this \ section:}$ <br>H0: There is no relationship between the variables. (r=0)<br><br>H1: There is a relationship between the variables (r<>0)<br><br> |
 | 2. Establish the criteria for rejection (alpha level). |
 | Typically alpha = .05<br><br><br><br> |
 | 3. Calculate the test statistic. |
-| $\textcolor{red}{Update \ this \ section:}$ <br>F(df between, df within) = [F-value], p = [p-value]<br><br><br><br> |
+| $\textcolor{red}{Update \ this \ section:}$ <br>r(N) = [r-value], p = [p-value]<br><br><br><br> |
 | 4. Make a decision about the null hypothesis. (Reject or fail to reject?) |
 | reject or fail to reject H0?<br><br><br><br> |
 | Are any post-hoc or follow-up analyses needed? |
-| $\textcolor{red}{Update \ this \ section:}$ <br>Describe which post-hoc test(s) you run and your rationale for choosing the test(s).<br><br><br><br> |
+| $\textcolor{red}{Update \ this \ section:}$ <br>What is the strength and direction of the relationship?<br><br><br><br> |
 | What is the effect size? What is the interpretation of the effect size? |
-| $\textcolor{red}{Update \ this \ section:}$ <br>partial eta squared (.01-small, .06-medium, .14-large) = <br><br>or omega squared (.06-small, .14-medium, >.14-large) = <br><br> |
+| $\textcolor{red}{Update \ this \ section:}$ <br>r squared = <br><br><br> |
 | Can a Bayes Factor be calculated? What is the interpretation of the Bayes Factor? |
 | B01 (null supported) or B10 (alternative supported) =<br><br><br><br> |
 | How will you report results? |
-| $\textcolor{red}{Update \ this \ section:}$ <br>Relevant descriptive statistics:<br><br>Name of test performed and null hypothesis:<br><br>Statistical test information:<br><br>Interpretation for the reader:<br><br>"A one-way ANOVA was conducted to examine the effect of exercise intensity (low, moderate, high) on weight loss. The analysis revealed a significant effect, F(2, 57) = 5.43, p = .007, 𝜂2  = .16. Post hoc Tukey tests showed that the high-intensity group (M = 6.4, SD = 1.2) lost significantly more weight than the low-intensity group (M = 3.2, SD = 1.1), p = .003. However, the moderate-intensity group (M = 5.1, SD = 1.3) did not significantly differ from either group (p > .05). These findings suggest that high-intensity exercise is more effective for weight loss than low-intensity exercise."<br> |
+| $\textcolor{red}{Update \ this \ section:}$ <br>Relevant descriptive statistics:<br><br>Name of test performed and null hypothesis:<br><br>Statistical test information:<br><br>Interpretation for the reader:<br><br>"There was a strong positive correlation between study hours and exam scores, r(118) = 0.72, p < .001, 95% CI [0.61, 0.83], indicating that students who spent more time studying tended to score higher on the exam. The correlation explained approximately 52% of the variance in exam scores (R² = 0.52)."<br> |
 | **--------------------References--------------------** |
 | American Statistical Association. (2022, February 1, 2022). Ethical guidelines for statistical practice. Retrieved October 10 from https://www.amstat.org/your-career/ethical-guidelines-for-statistical-practice <br><br> Berman, N., & Gullíon, C. (2007). Working with a Statistician. Topics in Biostatistics, 489-503. <br><br> Booth, W. C., Colomb, G. G., Williams, J. M., Bizup, J., & Fitzgerald, W. T. (2016). The craft of research (Fourth ed.). University of Chicago Press. https://doi.org/10.7208/chicago/9780226239873.001.0001 <br><br> Field, A. (2018). Discovering statistics using IBM SPSS statistics (Fifth ed.). SAGE Publications, Inc. <br><br> Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). Experimental and quasi-experimental designs for generalized causal inference. Wadsworth, Cengage Learning. <br><br> Tabachnick, B. G., & Fidell, L. S. (2019). Using multivariate statistics (Seventh ed.). Pearson Education, Inc. |
 
